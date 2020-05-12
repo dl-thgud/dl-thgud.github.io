@@ -15,7 +15,7 @@ git push -u origin master
 ```
 
 ```
-git clone https://github.com/dl-thgud/dl-thgud.github.io.git
+git clone https://github.com/dl-thgud/dl-thgud.github.io
 cd dl-thgud.github.io
 echo "Hello World" > index.html
 git add --all
@@ -31,8 +31,8 @@ sudo apt-get install ruby-full
 ## Jekyll 준비
 ```
 gem install bundler jekyll
-jekyll new dl-thgud.github.com
-cd dl-thgud.github.com
+jekyll new dl-thgud-site
+cd dl-thgud-site
 ```
 
 ## Jekyll 실행
